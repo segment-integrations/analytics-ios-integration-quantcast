@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'Segment-Quantcast_Example', :exclusive => true do
+  pod "Segment-Quantcast", :path => "../"
+end
+
+target 'Segment-Quantcast_Tests', :exclusive => true do
+  pod "Segment-Quantcast", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+end
