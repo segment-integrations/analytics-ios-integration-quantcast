@@ -13,6 +13,7 @@
         
         NSString *apiKey = [settings objectForKey:@"apiKey"];
         [[QuantcastMeasurement sharedInstance] setupMeasurementSessionWithAPIKey:apiKey userIdentifier:nil labels:nil];
+        //[QuantcastMeasurement sharedInstance].enableLogging = YES;
     }
     return self;
 }
