@@ -5,8 +5,8 @@ PODS:
     - Quantcast-Measure/Core (= 1.5.2)
   - Quantcast-Measure/Core (1.5.2)
   - Segment-Quantcast (1.0.0):
-    - Analytics (~> 3.0.0)
-    - Quantcast-Measure (~> 1.5.2)
+    - Analytics (~> 3.0)
+    - Quantcast-Measure (~> 1.5)
   - Specta (1.0.5)
 
 DEPENDENCIES:
@@ -22,7 +22,7 @@ SPEC CHECKSUMS:
   Analytics: b342fb4f43fa4f97ca6f4358b44d3295217ba294
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Quantcast-Measure: 9cdce282b735efa1990d93be30bad99d62765953
-  Segment-Quantcast: 224c0ae33a1cb0e8ad7c3c8f4baa9092f4654a5a
+  Segment-Quantcast: 67d42869efb9bb23c31ae201451a830b6b07e8b5
   Specta: ac94d110b865115fe60ff2c6d7281053c6f8e8a2
 
 PODFILE CHECKSUM: 921dd84c09cf3531c71cb2c46f445c072dc0cbde
