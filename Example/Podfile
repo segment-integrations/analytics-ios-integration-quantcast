@@ -1,12 +1,10 @@
-source 'https://github.com/CocoaPods/Specs.git'
+target 'Segment-Quantcast_Example' do
+  pod 'Segment-Quantcast', :path => '../'
 
-target 'Segment-Quantcast_Example', :exclusive => true do
-  pod "Segment-Quantcast", :path => "../"
-end
+  target 'Segment-Quantcast_Tests' do
+    inherit! :search_paths
 
-target 'Segment-Quantcast_Tests', :exclusive => true do
-  pod "Segment-Quantcast", :path => "../"
-
-  pod 'Specta'
-  pod 'Expecta'
+    pod 'Specta'
+    pod 'Expecta'
+  end
 end
