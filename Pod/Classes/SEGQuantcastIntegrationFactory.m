@@ -3,10 +3,10 @@
 
 @implementation SEGQuantcastIntegrationFactory
 
-+ (id)instance
++ (instancetype)instance
 {
     static dispatch_once_t once;
-    static SEGQuantcastIntegration *sharedInstance;
+    static SEGQuantcastIntegrationFactory *sharedInstance;
     dispatch_once(&once, ^{
         sharedInstance = [[self alloc] init];
     });
