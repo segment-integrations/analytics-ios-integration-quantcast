@@ -1,6 +1,6 @@
 # Analytics
 
-[![CI Status](http://img.shields.io/travis/segment-integrations/analytics-ios-integration-quantcast.svg?style=flat)](https://travis-ci.org/segment-integrations/analytics-ios-integration-quantcast)
+[![CircleCI](https://circleci.com/gh/segment-integrations/analytics-ios-integration-quantcast.svg?style=svg)](https://circleci.com/gh/segment-integrations/analytics-ios-integration-quantcast)
 [![Version](https://img.shields.io/cocoapods/v/Segment-Quantcast.svg?style=flat)](http://cocoapods.org/pods/Segment-Quantcast)
 [![License](https://img.shields.io/cocoapods/l/Segment-Quantcast.svg?style=flat)](http://cocoapods.org/pods/Segment-Quantcast)
 
