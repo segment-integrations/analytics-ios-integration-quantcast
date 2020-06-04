@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Segment-Quantcast"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Quantcast Integration for Segment's analytics-ios library."
 
   s.description      = <<-DESC
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
 
-  s.dependency 'Analytics', '~> 3.0'
+  s.dependency 'Analytics'
   s.dependency 'Quantcast-Measure', '~> 1.5'
 end
