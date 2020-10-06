@@ -7,7 +7,11 @@
 //
 
 #import "SEGAppDelegate.h"
+#if defined(__has_include) && __has_include(<Analytics/Analytics.h>)
 #import <Analytics/SEGAnalytics.h>
+#else
+#import <Segment/SEGAnalytics.h>
+#endif
 #import <Segment-Quantcast/SEGQuantcastIntegrationFactory.h>
 
 @implementation SEGAppDelegate
